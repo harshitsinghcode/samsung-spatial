@@ -1,5 +1,6 @@
-# 🎵 Speech & Music Dereverberation with GAN + U-Net
-## By Batch 5
+# Speech & Music Dereverberation with GAN + U-Net 🎵 
+### By Batch 5 [Harshit, Hemanth, Akshita, Vishnuraj] 
+
 This project implements a deep learning pipeline for **speech and music dereverberation** using a **U-Net / GAN architecture**. It is designed to enhance audio quality by removing reverberation while maintaining perceptual fidelity.
 
 Key features include:
@@ -10,7 +11,6 @@ Key features include:
 - **Evaluation metrics**: PESQ (speech quality) and SDR (music distortion ratio)
 - **Model complexity analysis**: GMACs calculation for efficiency
 
----
 
 ## 📦 Setup
 
@@ -25,7 +25,6 @@ Install the required Python packages for audio processing, model training, and e
 
 > Ensure your environment supports GPU acceleration for faster training.
 
----
 
 ## 📂 Project Structure
 
@@ -45,7 +44,6 @@ Install the required Python packages for audio processing, model training, and e
 - **Model Complexity (GMACs)**: Calculates GMACs and parameter count for 1-second audio input.  
 - **Evaluation Metrics**: Computes PESQ for speech quality and SDR for music quality.
 
----
 
 ## 🚀 Usage
 
@@ -71,7 +69,6 @@ Install the required Python packages for audio processing, model training, and e
 
 > Metrics are automatically computed for validation datasets.
 
----
 
 ## 📊 Metrics
 
@@ -79,16 +76,16 @@ Install the required Python packages for audio processing, model training, and e
 - **PESQ**: Perceptual evaluation of speech quality  
 - **SDR**: Signal-to-Distortion Ratio for music fidelity
 
----
+<img width="928" height="301" alt="image" src="https://github.com/user-attachments/assets/3c1dc81c-b3b1-47ad-ae60-18507c3f1def" />
 
-## 🎧 Example Outputs
+
+## 🎧 Outputs
 
 - **Original Reverberant Audio**: Input audio with room reverberation  
 - **Predicted Dereverberated Audio**: Model output  
 - **Clean Ground Truth Audio**: Reference audio  
 - **Spectrogram Plots**: Input, predicted, and target comparison
 
----
 
 ## ✅ Status Checks
 
